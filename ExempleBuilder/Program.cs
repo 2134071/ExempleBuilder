@@ -94,6 +94,19 @@
         }
 
         // méthode 2 pour construction de sandwich
+        //
+        //
+
+
+
+
+
+
+
+
+
+
+        //
 
         public Sandwich GetSandwich2()
         {
