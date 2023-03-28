@@ -96,18 +96,6 @@
         // méthode 2 pour construction de sandwich
         //
         //
-
-
-
-
-
-
-
-
-
-
-        //
-
         public Sandwich GetSandwich2()
         {
             return sandwich2;
@@ -195,7 +183,7 @@
         Console.WriteLine("Ham sandwich:");
         Console.WriteLine($"Bread: {SandwichBuilder.GetSandwich2().Bread}");
         Console.WriteLine($"Meat: {SandwichBuilder.GetSandwich2().Meat}");
-        Console.WriteLine($"Cheese: {SandwichBuilder.GetSandwich().Cheese}");
+        Console.WriteLine($"Cheese: {SandwichBuilder.GetSandwich2().Cheese}");
         Console.WriteLine($"Vegetables: {string.Join(", ", SandwichBuilder.GetSandwich2().Vegetables)}");
         Console.WriteLine($"Condiments: {string.Join(", ", SandwichBuilder.GetSandwich2().Condiments)}");
     }
